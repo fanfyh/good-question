@@ -127,6 +127,35 @@ My concern: construct validity / selection bias / causal identification.
 
 **Reviewer attacks:** unclear construct, selection bias, weak identification, ethical risk, overgeneralization.
 
+## Economics
+
+**Give the skill:** the policy, reform, or phenomenon; the outcome and construct; the candidate identifying variation and where it comes from; the mechanism; data source and period; whether the goal is a reduced-form treatment effect, a structural or welfare counterfactual, or a mechanism test; and whose decision or belief would update.
+
+**Phenomenon-driven entry (when you have data or a 现象 first):** reframe "我有一个数据/现象 X，这个能做什么研究？" as — what identifying variation does the data contain, what causal question does that variation license, and what is the hardest threat to its credibility?
+
+**Common weak questions:**
+- Estimate the effect of X on Y (no mechanism, no importance).
+- Study the impact of policy P (no identifying variation named).
+- Use reform R as a natural experiment (no institutional feature, no placebo).
+- No one has studied X in country C (descriptive novelty).
+- Apply method M (DiD/IV/RD/SCM) to setting S (method-first).
+
+**Better prompts:**
+```text
+Use $good-question in collaborator mode.
+Field: public economics / development / labor / urban / health / education.
+Phenomenon or reform: [X / R].
+Outcome: [Y].
+Candidate identifying variation: [source of exogeneity].
+Hardest threat: [exclusion restriction / parallel trends / selection / manipulation].
+Goal: treatment effect / welfare counterfactual / mechanism.
+My worry: identification without importance / external validity / LATE vs ATE.
+```
+
+**Good questions often ask:** which mechanism links X to Y and which rival survives, what institutional feature generates the exogenous variation, what placebo would fail if the design is invalid, who gains and loses under incidence assumptions, and what feature of this context would break results from elsewhere.
+
+**Reviewer attacks:** identification without importance, contested exclusion restriction, LATE as ATE, external-validity overreach, mechanism without theory, statistical but not economic significance, partial-equilibrium estimate as a welfare claim. For strategy selection and falsification tests, load `references/identification-causal-design.md`.
+
 ## Biomedicine
 
 **Give the skill:** disease or biological process, endpoint, comparator, cohort or model system, mechanism, translational decision, and ethical or sample constraints.

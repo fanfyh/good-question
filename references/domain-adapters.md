@@ -61,6 +61,24 @@ Use this card after a domain brief when the user works in one of these familiar 
 
 **Reviewer objections:** unclear construct, selection bias, weak identification, overgeneralization beyond the sample.
 
+## Economics And Causal-Inference Policy Research
+
+Use this adapter for applied microeconomics, public economics, development, labor, urban, health, and any question whose goal is a credible treatment effect or a welfare counterfactual. For strategy selection and falsification tests, pair with `references/identification-causal-design.md`.
+
+**Common weak forms:** "estimate the effect of X on Y" with no mechanism or importance; "study the impact of policy P" without naming the identifying variation; "use reform R as a natural experiment" without specifying the institutional feature that generates exogenous variation; "no one has studied X in country C" as descriptive novelty; "X is an important policy issue" with no resolvable uncertainty; method-first framing ("apply DiD/IV/RD to setting S") before diagnosing the endogeneity threat.
+
+**Stronger question forms:**
+- Through what mechanism does X affect Y, and which competing mechanism best survives the evidence?
+- What identifying variation in P allows causal interpretation, and which threat is hardest to rule out?
+- What specific institutional feature of reform R generates exogenous variation, and what placebo would fail if the design is invalid?
+- Who gains, who loses, and what is the net welfare change under reasonable assumptions about incidence?
+- What feature of this context would cause established results from other settings to break or reverse?
+- Does the setting satisfy the identifying assumption of the chosen method, and what robustness test would detect a violation?
+
+**Evidence norms:** name and defend the specific identifying assumption (exclusion restriction, parallel trends, unconfoundedness, no manipulation, SUTVA); treat identification and importance as joint gates — a clean design on a trivial parameter is a weakness, so name what decision or belief updates; choose structural versus reduced-form to fit the stake (recover deep parameters only when a welfare counterfactual or mechanism demands it); distinguish statistical from economic significance; flag partial- versus general-equilibrium and LATE-versus-ATE limits on external validity; challenge identification assumptions as substantive claims, not merely technical ones.
+
+**Reviewer objections:** identification without importance (clever instrument, trivial question), contested or undocumented exclusion restriction, LATE presented as ATE, external-validity overreach from a single context, mechanism claimed without theory or evidence, statistically significant but economically negligible magnitude, partial-equilibrium estimate dressed as a general-equilibrium welfare claim.
+
 ## Biomedicine
 
 **Common weak forms:** biomarker fishing, therapeutic promise without mechanism, small cohort association as a conclusion.
